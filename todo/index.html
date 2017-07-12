@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/jquery-datetimepicker/jquery.datetimepicker.css">
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+<div class="msg">
+    <span class="msg-content"></span>
+    <span class="anchor confirmed">知道了</span>
+</div>
+<div class="container"><!--总容器开始-->
+    <h1>我的Todo</h1>
+    <form class="add-task">
+        <input type="text" name="content" placeholder="e.g. 明天学习vue.js" autofocus autocomplete="off" />
+        <button type="submit">submit</button>
+    </form>
+    <div class="task-list"><!--清单列表-->
+    </div><!--清单列表结束-->
+    <div class="task-detail-mask"></div>
+    <div class="task-detail"><!--任务详情开始-->
+
+    </div><!--任务详情结束-->
+</div>
+<video class="alerter" src="alert.mp3"></video>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/storejs/dist/store.js"></script>
+<!--<script src="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.full.min.js"></script>-->
+<script src="node_modules/jquery-datetimepicker/bulid/jquery.datetimepicker.full.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
